@@ -1,4 +1,4 @@
-# TODO: tests, refactoring
+# TODO: tests, refactoring test1
 class Category < ActiveRecord::Base
   attr_accessible :category_id, :name
   belongs_to :category
