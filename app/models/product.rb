@@ -1,4 +1,4 @@
-# TODO: tests, refactoring foo 
+# TODO: tests, refactoring bar 
 class Product < ActiveRecord::Base
   attr_accessible :category_id, :name
   validates_presence_of :category_id, :name
